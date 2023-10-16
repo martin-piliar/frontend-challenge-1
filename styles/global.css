@@ -4,7 +4,7 @@
 /* Global Variables */
 :root {
   --font-size: 15px;
-  --card-border-radius: 20px;
+  --card-border-radius: var(--size-lg);
 }
 
 /* Global Styles */
@@ -35,9 +35,9 @@ main {
   align-items: center;
   background-color: var(--color-white);
   border-radius: var(--card-border-radius);
-  max-width: 300px;
+  max-width: 320px;
   text-align: center;
-  padding: var(--size-base);
+  padding: var(--size-lg);
   box-shadow: 0px 20px 25px -5px var(--color-shadow);
 }
 
@@ -48,7 +48,7 @@ main {
 }
 
 .card__content {
-  padding: var(--size-xs);
+  padding: 0px var(--size-xs) var(--size-xs) var(--size-xs);
 }
 
 .card__content p {
