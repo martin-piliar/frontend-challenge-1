@@ -29,10 +29,7 @@ main {
 
 /* Card Component */
 .card {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: var(--color-white);
   border-radius: var(--card-border-radius);
   max-width: 320px;
