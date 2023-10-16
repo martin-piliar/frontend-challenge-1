@@ -24,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![](./screenshot.jpg)
 ### Links
 - Solution URL: [Github](https://github.com/martin-piliar/frontend-challenge-1)
-- Live Site URL: [Website](https://www.challenge-1.piliar.me/)
+- Live Site URL: [Website](https://martin-piliar-frontend-challenge-1.netlify.app/)
 
 ## My process
 
