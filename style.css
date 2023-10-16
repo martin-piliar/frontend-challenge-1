@@ -1,0 +1,85 @@
+/* Global Variables */
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(212, 45%, 89%);
+  --color-grayish-blue: hsl(220, 15%, 55%);
+  --color-dark-blue: hsl(218, 44%, 22%);
+  --color-shadow: hsla(0, 0%, 0%, 0.1);
+
+  --font-size: 15px;
+  --card-border-radius: 20px;
+
+  --size-2xs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+}
+
+/* Global Styles */
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: var(--color-light-gray);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Main Component */
+main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Component */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-white);
+  border-radius: var(--card-border-radius);
+  max-width: 300px;
+  text-align: center;
+  padding: var(--size-base);
+  box-shadow: 0px 20px 25px -5px var(--color-shadow);
+}
+
+.card img {
+  max-width: 100%;
+  display: block;
+  border-radius: calc(var(--card-border-radius) - var(--size-xs));
+}
+
+.card__content {
+  padding: var(--size-xs);
+}
+
+.card__content p {
+  color: var(--color-grayish-blue);
+}
+
+.card__content h1 {
+  color: var(--color-dark-blue);
+}
+
+/* Footer Attribution */
+footer.attribution {
+  font-size: 11px;
+  margin-top: auto;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--color-dark-blue);
+}
